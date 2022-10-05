@@ -53,6 +53,12 @@ Notice the route from [1, 2, 2, 2, 5] has a maximum absolute difference of 3, so
 <br>
 *Explanation:* The route requires `0` effort due to the fact that the path highlighted (all 1's) has a maximum absolute difference of 0 between cells.
 
+## Hints
+A modified version of Dijkstra may be used here where the effort is the difference between two heights, as opposed to the cumulation of the edge cost between nodes.
+
+## Leetcode Link
+https://leetcode.com/problems/path-with-minimum-effort/
+
 ## Getting Started
 
 As usual with a python project, create a virtual environment:

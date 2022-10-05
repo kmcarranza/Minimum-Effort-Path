@@ -8,6 +8,7 @@ def min_effort_path(heights):
         Parameters
         ----------
         heights : list[list[]] (2D array)
+            2D array containing the heights of the available paths
 
         Returns
         -------
