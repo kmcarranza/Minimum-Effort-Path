@@ -38,6 +38,17 @@ def test_will_return_zero_for_empty_graph():
 
     # Act
     answer = min_effort_path(heights)
-    
+
     # Assert
     assert answer == 0
+
+
+def test_will_return_min_effort_for_rectangular_grid():
+    # Arrange
+    heights = [[1,2,1,1,1,1],[1,2,1,2,1,2],[1,2,1,2,1,3],[1,2,1,2,1,3],[1,1,1,2,1,2]]
+
+    # Act
+    answer = min_effort_path(heights)
+    
+    # Assert
+    assert answer == 1
